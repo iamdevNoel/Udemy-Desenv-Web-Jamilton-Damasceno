@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #e6e6e6;
+}
+
+header {
+    padding: 15px;
+    background-color: #f7b600;
+    text-align: center;
+}
+
+header h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+    padding: 10px;
+}
+
+header nav {
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 8px 12px;
+}
+
+header a:hover {
+    background-color: #ffffff;
+    color: #f7b600;
+}
+
+main {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+article {
+    width: 660px;
+    float: left;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    margin: 0 0 20px;
+}
+
+.post h2 {
+    color: #f7b600;
+}
+
+.post p {
+    font-size: 0.8em;
+    display: block;
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.post a {
+    text-decoration: none;
+    color: #f7b600;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+aside {
+    width: 240px;
+    float: right;
+    position: absolute;
+    top: 150px;
+    right: 180px;
+}
+
+.aside-content {
+    background-color: white;
+    padding: 10px;
+    margin: 0 0 20px;
+}
+
+.aside-content h3 {
+    color: #565656;
+    background-color: #cccccc;
+    padding: 5px;
+}
+
+.aside-post {
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+.aside-content a {
+    display: block;
+    padding: 2px 0 0;
+    text-decoration: none;
+    color: #f7b600;
+}
+
+.aside-content a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #cccccc;
+    padding: 15px;
+    text-align: center;
+    clear: both;
+}

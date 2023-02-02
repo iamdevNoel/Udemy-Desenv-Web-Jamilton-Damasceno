@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+/***** Estilização de estruturas gerais *****/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background: #fff url(assets/fundo.png) repeat-x;
+}
+
+.container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+header {
+    height: 150px;
+    padding: 25px;
+    background: url(assets/detalhe-topo.png) no-repeat top right;
+}
+
+header nav {
+    background-color: #b10333;
+    float: left;
+    margin: 30px 0 0;
+}
+
+main {
+    margin: 60px 0 0;
+    background: #f5f5f5;
+}
+
+#principal {
+    float: left;
+    width: 270px;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #principal {
+    width: 555px;
+}
+
+#uma-coluna #principal {
+    width: 750px;
+    margin: 0 20px 0;
+}
+
+#secundario {
+    float: left;
+    width: 270px;
+    margin: 0 0 20px 15px;
+}
+
+#lateral {
+    float: left;
+    width: 180px;
+    margin: 0 0 20px -750px;
+}
+
+footer {
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    background: #294c71;
+    color: #fff;
+}
+
+/***** Estilização de partes específicas *****/
+
+header h1 {
+    height: 66px;
+    width: 152px;
+    background: url(assets/logo.png) no-repeat center;
+    text-indent: -100vw;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header nav li {
+    float: left;
+}
+
+header nav a {
+    background: url(assets/divisor.png) repeat-y left;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 1.5em;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: bold;
+    line-height: 2em;
+}
+
+header nav .first a {
+    background: none;
+}
+
+header nav a:hover {
+    color: #69001d
+}
+
+body.home nav a#home,
+body.brasil nav a#brasil,
+body.internacional nav a#internacional,
+body.economia nav a#economia,
+body.saude nav a#saude,
+body.ciencia nav a#ciencia,
+body.fotos nav a#fotos {
+    color: #fff;
+    background-color: #de003e;
+}
+
+.caixa {
+    padding: 5px;
+    margin: 10px;
+    background: #f3f3f3 url(assets/fundo-caixa.png);
+
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin: 5px 0 0;
+}
+
+.caixa h2 {
+    padding: 5px;
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+}
+
+#lateral li a {
+    text-decoration: none;
+    display: block;
+    padding: 3px;
+    color: #000;
+    font-size: 0.9em;
+    line-height: 30px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral li a:hover {
+    color: #a1a1a1;
+    background: #f9f9f9 url(assets/marcador.png) no-repeat left center;
+    padding: 0 0 0 20px;
+}
+
+#lateral input {
+    width: 125px;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+#lateral input.submit {
+    width: 80px;
+    color: #fff;
+    background: #b10333;
+    border: 2px solid #870529;
+} 
+
+#principal img {
+    border: 2px solid #dfdfdf;
+}
+
+h3 {
+    display: inline;
+    padding: 3px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+#principal .destaque h3,
+#secundario .destaque h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.lista-noticias li {
+    height: 62px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.lista-noticias li img {
+    float: left;
+    margin: 5px;
+}
+
+.lista-noticias li a {
+    text-decoration: none;
+}
+
+.lista-noticias li h3 {
+    color: #3e7ab9;
+    padding: 3px 0;
+    font-size: 0.7em;
+}
+
+.lista-noticias li p {
+    font-size: 0.6em;
+}
+
+.lista-noticias li:hover {
+    background: #eee;
+}

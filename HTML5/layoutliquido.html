@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Líquido</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            width: 85%;
+            margin: 0 auto;
+            background-color: #fff;
+        }
+        
+        header {
+            height: 200px;
+            background-color: #9e9e9e;
+            text-align: center;
+            line-height: 200px;
+        }
+        
+        .asideleft {
+            width: 23%;
+            background-color: #d1d1d1;
+            padding: 20px 0;
+            float: left;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+
+        li a {
+            text-decoration: none;
+        }
+        
+        main {
+            width: 75%;
+            float: right;
+        }
+        
+        .articlecenter {
+            width: 60%;
+            float: left;
+        }
+        
+        .asideright {
+            width: 34%;
+            padding: 0 10px;
+            float: right;
+        }
+        
+        footer {
+            background-color: #d1d1d1;
+            line-height: 2em;
+            clear: both;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MARCA</h1>
+        </header>
+        <main>
+            <article class="articlecenter">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>consectetur adipisicing elit. Iste, veniam atque omnis hic esse earum tenetur quod corporis quidem provident corrupti aliquam voluptate? Optio numquam, suscipit doloremque illo rem libero?</p>
+        
+                <h2>Lorem ipsum dolor sit amet</h2>
+        
+                <p>consectetur adipisicing elit. Iste, veniam atque omnis hic esse earum tenetur quod corporis quidem provident corrupti aliquam voluptate? Optio numquam, suscipit doloremque illo rem libero?</p>
+            </article>
+
+            <aside class="asideright">
+                <article>
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>consectetur adipisicing elit. Iste, veniam atque omnis hic esse earum tenetur quod corporis quidem provident corrupti aliquam voluptate? Optio numquam, suscipit doloremque illo rem libero?</p>
+                </article>
+            </aside>
+        </main>
+        <aside class="asideleft">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">Notícias</a>
+                    </li>
+                    <li>
+                        <a href="#">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#">Clientes</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <footer>Rodapé</footer>
+    </div>
+</body>
+</html>

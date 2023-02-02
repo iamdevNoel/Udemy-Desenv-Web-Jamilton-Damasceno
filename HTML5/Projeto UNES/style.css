@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(fundo.png);
+}
+
+table {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px 0;
+}
+
+#right {
+    text-align: right;
+}
+
+#cover {
+    width: 100%;
+}
+
+#center {
+    text-align: center;
+}
+
+ol {
+    padding-left: 40px;
+}

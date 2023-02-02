@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizando formulários</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        fieldset {
+            padding: 1em;
+            margin: 1em 0;
+            border: 1px solid #ccc;
+            background-color: #f8f8f8;
+        }
+        
+        legend {
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+        }
+
+        input {
+            width: 20em;
+        }
+
+        textarea {
+            width: 20em;
+            height: 10em;
+        }
+
+        .radio {
+            width: auto;
+            margin: 0 1em 0 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Estilizando formulários</h2>
+
+    <form action="">
+        <fieldset>
+            <legend>Detalhes de contato</legend>
+            
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="url">URL:</label>
+            <input type="url" name="url" id="url">
+        </fieldset>
+
+        <fieldset>
+            <legend>Comentários</legend>
+
+            <label for="comments">Menssagem:</label>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Lembrar-se de mim?</legend>
+
+            <label for="Sim">
+                <input class="radio" type="radio" name="lembrar" id="Sim">Sim
+            </label>
+
+            <label for="Nao">
+                <input class="radio" type="radio" name="lembrar" id="Nao">Não
+            </label>
+        </fieldset>
+    </form>
+</body>
+</html>
