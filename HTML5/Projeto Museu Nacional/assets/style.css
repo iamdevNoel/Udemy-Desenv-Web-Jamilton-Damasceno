@@ -64,7 +64,19 @@ nav ul li a:hover {
 .conteudo {
     width: 710px;
     float: left;
-    background-color: green;
+}
+
+.conteudo article {
+    float: left;
+    width: 310px;
+    margin: 20px 20px 0;
+}
+
+.conteudo article h3 {
+    color: #227115;
+    font-size: 1em;
+    margin: 0 0 15px;
+    text-transform: uppercase;
 }
 
 aside {
